@@ -1,6 +1,6 @@
 /* 
 GLOBAL STYLES
-*
+
 COLORS
 Primary:#02b3e4
 Secondary:#2d3c49
@@ -28,11 +28,11 @@ body {
 }
 
 h2 {
-    font-size: 2.7rem;
+    font-size: 2.8rem;
 }
 
 p {
-     font-size: 1.8rem;
+     font-size: 1.6rem;
  }
 
 /* 
@@ -54,12 +54,8 @@ HEADER SECTION
 }
 
 .header-subtitle {
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 }
-/* 
-HERO SECTION
-*/
-
 
 
 /* 
@@ -86,7 +82,7 @@ FOOTER SECTION
 
 svg {
     fill: #02b3e4;
-    
+   
 }
 
 .footer {
@@ -98,46 +94,23 @@ svg {
 .footer-box {
     height: 7rem;
     width: 7rem;
-    color: #02b3e4;
     padding: 1rem;
 
 }
 
 .footer-icons {
     width: auto;
-    max-height: 5rem;
-    
+    max-height: 5rem; 
+  
 }
 
+/* 
+MEDIA QUERIES
+*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Media Queries*/
-/*For devices with width between 600px and 850px*/
-@media screen and (min-width: 600px) and (max-width: 850px)  {
-    
-  /*For devices with width up to 600px*/    
-  @media screen and (max-width: 600px)  {
-  
-    }
-  }
+ @media screen and (max-width: 600px)  {
+     html {
+            font-size: 50%;
+     }  
+}
