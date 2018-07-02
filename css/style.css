@@ -1,0 +1,143 @@
+/* 
+GLOBAL STYLES
+*
+COLORS
+Primary:#02b3e4
+Secondary:#2d3c49
+Secondary-Light:#7d97ad
+*/
+
+*,
+*::after
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    margin: auto 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: 'Lato', sans-serif; 
+    color: #2d3c49;    
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+p {
+     font-size: 1.8rem;
+ }
+
+/* 
+HEADER SECTION 
+*/
+
+.header-logo {
+    height:7rem ;
+}
+
+.header-title,
+.header-subtitle {
+	margin-top: 0;
+	
+}
+
+.header-title {
+	font-size: 4rem;
+}
+
+.header-subtitle {
+	font-size: 2.5rem;
+}
+/* 
+HERO SECTION
+*/
+
+
+
+/* 
+SKILL SECTION
+*/
+
+.skills-title {
+	font-size: 3.2rem;
+	text-align: center;
+}
+
+.skills-list {
+	padding: 0;
+	list-style: none;
+}
+
+.card {
+    box-shadow: 0.5rem 0.5rem 3rem #ccc
+}
+
+/* 
+FOOTER SECTION
+*/
+
+svg {
+    fill: #02b3e4;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+.footer-box {
+    height: 7rem;
+    width: 7rem;
+    color: #02b3e4;
+    padding: 1rem;
+
+}
+
+.footer-icons {
+    width: auto;
+    max-height: 5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+/*For devices with width between 600px and 850px*/
+@media screen and (min-width: 600px) and (max-width: 850px)  {
+    
+  /*For devices with width up to 600px*/    
+  @media screen and (max-width: 600px)  {
+  
+    }
+  }
