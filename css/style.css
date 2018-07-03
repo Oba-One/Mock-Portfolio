@@ -8,7 +8,7 @@ Secondary-Light:#7d97ad
 */
 
 *,
-*::after
+*::after,
 *::before {
   margin: 0;
   padding: 0;
@@ -40,7 +40,7 @@ HEADER SECTION
 */
 
 .header-logo {
-    height:7rem ;
+    height:7rem;
 }
 
 .header-title,
@@ -73,7 +73,7 @@ SKILL SECTION
 }
 
 .card {
-    box-shadow: 0.5rem 0.5rem 3rem #ccc
+    box-shadow: 0.5rem 0.5rem 3rem #ccc;
 }
 
 /* 
@@ -88,7 +88,7 @@ svg {
 .footer {
     display: flex;
     justify-content: center;
-    flex-direction: row
+    flex-direction: row;
 }
 
 .footer-box {
